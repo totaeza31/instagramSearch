@@ -14,7 +14,7 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-sm navbar-light bg-dark">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
         <a class="navbar-brand" href="#">Navbar</a>
         <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
             aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,21 +37,23 @@
                     </div>
                 </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="text" placeholder="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
+            <div class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search" id="input">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id= "search">Search</button>
+            </div>
         </div>
     </nav>
 
     
+ 
+    <div class="container"><center>
+        <h1 class="display-1" style="text-align: center;">Instagram <img src="/img/instagram.png" alt="" width="100px">
+        </h1>
 
-    <div class="container">
-        <h1 class="display-1" style="text-align: center;">Instagram </h1>
         <h2 class="display-4" id="location"></h2>
         <h2 id="location2"></h2>
-        <h2>number of count <label id="count"> </label></h2>
-
+       
+    </center>
 
         <div id="posts" class="row">
 
